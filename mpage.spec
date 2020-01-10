@@ -1,7 +1,7 @@
 Summary: A tool for printing multiple pages of text on each printed page
 Name: mpage
 Version: 2.5.6
-Release: 12%{dist}
+Release: 14%{dist}
 License: GPLv2+
 Url: http://www.mesa.nl/pub/mpage/
 Group: Applications/Publishing
@@ -47,6 +47,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/mpage
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.5.6-14
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.5.6-13
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.5.6-12
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
